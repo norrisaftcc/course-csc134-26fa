@@ -24,4 +24,5 @@ int main()
     return 0; // no errors
 
     // One more comment.
+    // and another.
 }
