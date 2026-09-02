@@ -29,7 +29,7 @@ int main() {
     cout << "It grossed in total $" << movie_grossm << " million." << endl;
 
     // Print a movie quote
-    cout << "QUOTE:" << endl << " \t\"Ogres are like onions. Onions have layers. Ogres have layers.\" " << endl;
+    cout << "QUOTE:" << endl << " \t'Ogres are like onions. Onions have layers. Ogres have layers.' " << endl;
 
     return 0; // no errors
 }
