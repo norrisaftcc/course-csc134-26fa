@@ -33,14 +33,17 @@ int main() {
     cout << "Our " << product_name << "(s) are $" << product_price << " each." << endl;
 
     cout << "How many would you like to buy today? "; 
-    
+    cin  >> purchase_count;
 
     // DO THE PROCESSING
-
+    // NOTE: we don't verify the user input -- they can buy more than we have, or a negative amount.
+    // This will be fixed in the Loops module.
+    purchase_total = purchase_count * product_price;
 
     // PRINT OUTPUT
-
-
+    cout << "You have ordered " << purchase_count << " " << product_name << "(s)." << endl;
+    cout << "Total price: $" << purchase_total << endl;
+    cout << "Thank you for shopping with CSC 134." << endl << endl;
 
     return 0; // no errors
 }
