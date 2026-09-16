@@ -22,6 +22,7 @@ int main() {
     // Right now, nothing. They pick exactly one sandwich.
     // For now, hard code some values
     meal_name  = "Chicken Sandwich"; // pick your own if you want
+    //getline(cin, meal_name);    // This allows meal_name to contain spaces
     meal_price = 5.99;
     tax_rate   = 0.08; // 8% 
 
