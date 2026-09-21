@@ -36,7 +36,16 @@ int main() {
     cout << "Rectangle 1 is area: " << area1 << endl;
     cout << "Rectangle 2 is area: " << area2 << endl;
     // TODO: Tell the user which one is larger (more area)
-
+    // if statements test for true or false
+    if (area1 > area2) {
+        cout << "Rectangle 1 is larger." << endl;
+    }
+    else if (area2 > area1) {
+        cout << "Rectangle 2 is larger." << endl;
+    }
+    else {
+        cout << "They are the same size." << endl;
+    }
 
     return 0;
 }
