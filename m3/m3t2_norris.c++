@@ -25,6 +25,13 @@ int main() {
     // Processing -- figure out win, lose, or point
     // || is OR -- both sides must be full Boolean expressions (&& is AND)
     if (total == 7 || total == 11) {
+        // for fun (optional), use the names of the rolls
+        if (total == 7) {
+            cout << "Lucky Number Seven!" << endl;
+        }
+        if (total == 11) {
+            cout << "Lucky eleven!" << endl;
+        }
         cout << "You win!" << endl;
     }
     else if (total == 2 || total == 3 || total == 12) {
