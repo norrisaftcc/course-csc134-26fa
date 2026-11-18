@@ -11,6 +11,7 @@
 // Compile and run:
 //   g++ -std=c++17 -Wall -Wextra m6lab2_0002.cpp -o adv
 //   ./adv
+// Assisted by: GPT Luna (copilot) and norrisa
 
 #include <iostream>
 #include <string>
